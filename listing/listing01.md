@@ -24,6 +24,6 @@
   bb.String()
 ```
 
-Ссылаясь на [данную статью](http://test.com/](https://daryl-ng.medium.com/efficiently-concatenate-strings-in-go-a90dfa5161fd)https://daryl-ng.medium.com/efficiently-concatenate-strings-in-go-a90dfa5161fd), где автор произвёл бенчмарк всех 3-х способов результат оказался следующий:
+Ссылаясь на [данную статью](http://test.com/](https://daryl-ng.medium.com/efficiently-concatenate-strings-in-go-a90dfa5161fd)https://daryl-ng.medium.com/efficiently-concatenate-strings-in-go-a90dfa5161fd), где автор произвёл бенчмарк всех 3-х способов, результат оказался следующий:
 - Если требуется производительность: `Конкатенация с использованием strings.Builder`
-- Если требуется минимум кода и простота ( придётся пожертвовать производительностью ): `Конкатенация с использованием `+``
+- Если требуется минимум кода и простота ( придётся пожертвовать производительностью ): `Конкатенация с использованием `+`
